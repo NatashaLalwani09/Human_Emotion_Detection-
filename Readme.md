@@ -4,6 +4,11 @@
 
 - We consider the problem of identifying human emotions from speech samples. Our aim is to experiment with various methods of classifying emotions and better understand the most distinctive features of emotions
 
+### Dataset
+
+Speech audio-only files (16bit, 48kHz .wav) from the RAVDESS dataset. It contains 1440 files that include the Speech emotions - calm, happy, sad, angry, fearful, surprise, and disgust expressions.
+
+
 ## Required Dependencies
 
 - numpy
@@ -17,18 +22,6 @@
 ## Files
 
 This project contain following files and folder:
-
-### Dataset
-
-This folder contains Speech audio-only files (16bit, 48kHz .wav) from the RAVDESS. It contains 1440 files that include the Speech emotions - calm, happy, sad, angry, fearful, surprise, and disgust expressions.
-
-### Data_files
-
-This folder contains the csv training, validation and testing files created during data creation and loading
-
-### EDA_plot
-
-This folder contains all the plot images saved when plot is generated
 
 ### EDA_final.ipynb
 
